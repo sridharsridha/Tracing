@@ -1,3 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(TrackingExamples LANGUAGES CXX)
+
 find_package(Tracing)
 
 add_executable(basic_usage 001-basic_usage.cpp)
