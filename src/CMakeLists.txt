@@ -39,7 +39,7 @@ install(
 
 # copy include files to the install include directory
 install(
-        DIRECTORY include
+        DIRECTORY ./
         DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME})
 
 

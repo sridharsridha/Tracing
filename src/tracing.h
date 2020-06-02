@@ -525,7 +525,7 @@ private:
     char last_char = '0';
     for (const auto &c : trace_levels_regex) {
       if (std::isdigit(c)) {
-        int val = (c - '0');
+        size_t val = (c - '0');
         assert(val < MAX_NUM_TRACE_LEVELS && val >= 0);
         if (range) {
           for (size_t i = rangeStartIndex; i <= val; ++i) {
