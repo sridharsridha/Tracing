@@ -19,7 +19,7 @@ using namespace sri::tracing;
 // trace contexts name starting with 'Example'
 // export TRACE="*/*"
 // This will trace from all trace contexts and all trace levels.
-TRACE_CONTEXT("ExampleBasic")
+TRACE_CONTEXT("ExampleBasic");
 
 int main() {
   std::string greeting = "GoodDay";
